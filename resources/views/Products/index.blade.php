@@ -10,7 +10,17 @@
 
 <body>
   <h1>Product</h1>
-  <div>index</div>
   
+  <div>
+    <table border="1"> 
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Qty</th>
+        <th>Price</th>
+        <th>Description</th>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
