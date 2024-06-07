@@ -19,6 +19,9 @@
   </div>
   
   <div>
+    <div>
+      <a href="{{route('product.create')}}">Create A Product</a>
+    </div>
     <table border="1"> 
       <tr>
         <th>ID</th>
