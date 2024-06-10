@@ -8,9 +8,10 @@ use App\Models\Product;
 class ProductController extends Controller
 {
     public function index(){
-        $products = Product::all();
+        $products = Product::whereNull('deleted_at')->get(); // Explicitly excluding soft deleted records
         return view('products.index', ['products' => $products]);
     }
+    
 
     public function create(){
         return view('products.create');

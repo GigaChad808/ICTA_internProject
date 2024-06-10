@@ -15,5 +15,7 @@ class Product extends Model
         'price',
         'description',
     ];
+
+    protected $dates = ['deleted_at'];
 }
  
